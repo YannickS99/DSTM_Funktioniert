@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ui.linkliste.LinklisteFragment">
+
+
+    <ImageButton
+        android:id="@+id/mdl_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/mdl_icn"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/mensa_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/mensa_icn"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/mail_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/mail_icn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/anp_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/anp_icn"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="-360dp"/>
+
+    <ImageButton
+        android:id="@+id/grade_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/grade_icn"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageButton
+        android:id="@+id/dcs_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/dcs_icn"
+        android:layout_marginTop="150dp"/>
+
+    <ImageButton
+        android:id="@+id/cmp_btn"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9F9F9"
+        android:scaleType="centerInside"
+        android:src="@drawable/cmp_icn"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-230dp"/>
+
+
+</LinearLayout>
